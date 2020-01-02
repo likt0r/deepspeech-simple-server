@@ -1,0 +1,13 @@
+{
+  "deepspeech": {
+    "model" :"models/output_graph.pbmm",
+    "lm": "models/lm.binary",
+    "trie": "models/trie",
+    "beam_width": 500
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "request_max_size": 1048576 
+  }
+}
